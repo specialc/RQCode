@@ -1,11 +1,11 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, ‘8.0’
 
-target 'testRQCode' do
+target 'QRCode' do
     # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
     # use_frameworks!
     
-    # Pods for testRQCode
+    # Pods for QRCode
     pod 'AFNetworking', '~> 3.0'
     pod 'Reachability', '~> 3.2'
     pod 'MBProgressHUD', '~> 1.0.0'
@@ -16,16 +16,13 @@ target 'testRQCode' do
     pod 'YYImage/WebP'
     pod 'Masonry'
     pod 'ZXingObjC'
-
-    # 金山播放器：点播
-    pod 'KSYMediaPlayer_iOS/KSYMediaPlayer_vod'
     
-    target 'testRQCodeTests' do
+    target 'QRCodeTests' do
         inherit! :search_paths
         # Pods for testing
     end
 
-    target 'testRQCodeUITests' do
+    target 'QRCodeUITests' do
         inherit! :search_paths
         # Pods for testing
     end
